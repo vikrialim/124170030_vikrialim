@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kurang">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENGURANGAN"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:layout_marginBottom="70dp"/>
+    <EditText
+        android:id="@+id/et_panjang"
+        android:hint="number1"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/et_lebar"
+        android:hint="number2"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btn_kurang"
+        android:text="-"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hasil"
+        android:text="0.0"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginTop="60dp"
+        android:text="back >>"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:id="@+id/btn_kembali"/>
+
+</LinearLayout>
